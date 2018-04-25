@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+*<?xml version="1.0" encoding="UTF-8"?>
 <plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
     xmlns:android="http://schemas.android.com/apk/res/android"
     id="org.flybuy.cordova.background-location-services"
@@ -19,7 +19,7 @@
 
     <!-- android -->
     <platform name="android">
-        <framework src="com.google.android.gms:play-services-location:11.8.0" />
+        <framework src="com.google.android.gms:play-services-location:+" />
 
         <source-file src="src/android/BackgroundLocationServicesPlugin.java" target-dir="src/com/flybuy/cordova/location"/>
         <source-file src="src/android/BackgroundLocationUpdateService.java" target-dir="src/com/flybuy/cordova/location"/>
